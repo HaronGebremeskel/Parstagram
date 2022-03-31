@@ -6,6 +6,7 @@ target 'Parstagram' do
   use_frameworks!
   pod 'Parse'
   pod 'AlamofireImage'
+  pod 'MessageInputBar'
 
   # Pods for Parstagram
 
@@ -14,12 +15,14 @@ target 'Parstagram' do
     # Pods for testing
     pod 'Parse'
     pod 'AlamofireImage'
+    pod 'MessageInputBar'
   end
 
   target 'ParstagramUITests' do
     # Pods for testing
     pod 'Parse'
     pod 'AlamofireImage'
+    pod 'MessageInputBar'
   end
 
 end
